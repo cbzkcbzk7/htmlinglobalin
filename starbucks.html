@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        #main-container{
+            height: 1000vh;
+
+        }
+        #topMenu-board{
+            background-color: #f6f5ef;
+            height: 120px;
+
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            z-index: 100;
+        }
+
+        #logo {
+            /* background-color: aqua; */
+            width: 20%;
+            display: flex;
+            justify-content:center;
+            margin-right: -150px;
+        }
+
+        #logo>img {
+            /* background-color: yellowgreen; */
+            width: 25%;
+            height: 65%;
+            padding-top: 20px;
+            /* margin-right: -50px; */
+        }
+
+        #menu-board {
+            margin: 0;
+            width: 1300px;
+
+        }
+
+        #menu-sub-board {
+            /* background-color: pink; */
+            margin: 0;
+            display: flex;
+            justify-content: right;
+            height: 60px;
+            
+        }
+
+        #menu-sub-board>span{
+            margin: 8px 15px 0 15px;
+            font-size: 13px;
+          
+        }
+
+        #menu-nave-board{
+            /* background-color: pink; */
+            display: flex;
+            justify-content: center;
+            height: 60px;
+            font-size: 14px;
+            padding-left: 100px;
+        
+        }
+
+        #menu-nave-board>div{
+            display: inline;
+            width: 15%; 
+            text-align: center;
+            margin: 0;  
+        } 
+
+        #menu-nave-board>div:first-child{
+            
+            background-color: rgb(104, 175, 12);
+            
+        } 
+
+        #main-img-board{
+            background-color: #2C4C35;
+            margin-top:120px;
+            height: 436.8px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main-container">
+        <div id="topMenu-board">
+           
+                <div id="logo"><img src="img/pngwing.com.png"/></div>
+                <div id="menu-board">
+                    <div id="menu-sub-board">
+                        <span>Sign In</span>
+                        <span>My Starbucks</span>
+                        <span>Customer Service & Ideas</span>
+                        <span>Find a Store</span>
+                        <span>통합검색</span>
+                    </div>
+                    <div id="menu-nave-board">
+                        <div>COFFEE</div>
+                        <div>MENU</div>
+                        <div>STORE</div>
+                        <div>RESPONSIBILITY</div>
+                        <div>STARBUCKS REWARDS</div>
+                        <div>CORPORATE SALES</div>
+                        <div>WHAT'S NEW</div>
+                    </div>
+                </div>
+        </div>
+        <div id="main-img-board"></div>
+    </div>
+</body>
+</html>
